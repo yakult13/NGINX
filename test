@@ -101,6 +101,7 @@ ssl
 function Site() { 
     rm -f /etc/nginx/conf.d/bonveio-ovpn-config.conf
     wget -qO /etc/nginx/conf.d/bonveio-ovpn-config.conf https://github.com/yakult13/NGINX/raw/main/site.conf
+    ed -i "s|MYDNS|$MYDNS|g" /etc/nginx/conf.d/bonveio-ovpn-config.conf
     sed -i "s|86|443|g" /var/www/openvpn/index.html
     service nginx restart
 }
