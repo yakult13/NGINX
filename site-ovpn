@@ -13,12 +13,12 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.3/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
-    <body style="background-image: url(https://freenet.cafe/assetx/img/curved-images/curved8.jpg); background-repeat: no-repeat; background-size: cover;">
+    <body style="background-image: url('https://github.com/yakult13/parte/raw/main/curved8.jpg'); background-repeat: no-repeat; background-size: cover;">
         <div class="container justify-content-center>
             <div class="col-md">
                 <div class="view" style="margin-top:3em;margin-bottom:3em;">
                         <center>
-                            <img class="w3-circle" src="https://www.facebook.com/freenetcafe/photos/a.101701178922206/113453211080336/" width="250px" height="250px" class="card-img-top">
+                            <img class="w3-circle" src="https://github.com/yakult13/parte/raw/main/cafe%20(1).png" width="250px" height="250px" class="card-img-top">
                         </center>
                 </div>
                 <div class="card">
